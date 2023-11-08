@@ -1,0 +1,106 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling */
+header {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-image: url(img/bg-1-full.jpg);
+    background-position:left;
+    text-align: center;
+    line-height: 1.5;
+    padding: 100px ;
+}
+
+body {
+   background-image: url(img/wallpaperflare.com_wallpaper.jpg);
+   background-size: cover;
+   animation-duration: 50s;
+   transition: all.10s;
+}
+
+header h1 {
+    background-position: left;
+    font-size: 2.5rem;
+}
+header  {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+    transition: all.5s ease;
+   
+}
+header :hover{
+    background-color: rgb(255, 255, 255);
+    color: #181717;
+    box-shadow: 0 0 10px rgba(174, 252, 148, 0.671)
+}
+header p {
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #0f0f0f;
+    padding: 10px 0;
+}
+nav {
+    background-color: #7e7878;
+    padding: 5px 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(252, 252, 252);
+    padding:8px 25px;
+    transition: all .5s ease;
+}
+nav ul a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #050505;
+    box-shadow: 0 0 10px rgba(238, 241, 237, 0.671)
+}
+
+section {
+    color: #000000;
+    background-color: #fffafa;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background:-o-linear-gradient(to top, rgb(75, 76, 158)50%,white 50%);
+    border: 1px solid #f8f4f4;
+    box-shadow: 0 0 20px rgba(0, 238, 255, 0.452);
+    background-size: 100% 200%;
+    transition: all.8s;
+}
+section:hover {
+    background-color: #4d4a4a;
+    background-position: left bottom;
+    color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 38, 255, 0.747);
+    
+}
+
+section h2 {
+    font-size: 1.5rem;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #0a0a0a;
+}
